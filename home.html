@@ -1,0 +1,68 @@
+<!-- 
+    파일/폴더명은 항상 소문자로 작성한다.
+
+    meta tag = 부가적인 요소 라는 뜻 (content, name attribute를 가짐)
+
+    charset = 한글 등 문자 표시하게 해줌
+
+    language = 사이트에 사용되는 언어 표기 (검색엔진에게 알려줌)
+    다른 수많은 meta tag들이 있음
+
+    HEAD 태그는 보이지 않는 사이트 설정들을 바꿔준다!! (중요)
+
+    og:~~~ = 카카오톡에서 사용하는 정보들
+
+    - visul studio code는 코드 작성이 잘못되면 빨간색으로 나타내준다.
+    - atrribute 값은 항상 "" 큰 따옴표 안에 작성한다.
+    - 어떤 태그든 id라는 arrtribute를 가질 수 있다.
+    - 반대로 src(source)라는 attribute는 모든 태그가 가질 수 있지 않다.
+    - 코드 자체에 의미가 부여된 semantic 태그를 잊지 말자.ex) header, navigation, footer...
+    - semantic 태그로 코드를 작성 하는 것은 매우 중요하다. 작성된 코드들이 훨씬 더 보기 좋고, 좋은
+    프로그래머가 되기 위해서는 필수 사항이다.
+    - header, main, footer, navigation, hgroup 등 <>속 태그들은 전부 container이다. 전부 div 태그로 대체 할 수 있다.
+    - div 태그는 가장 통용적인 container이다. 대체가 가능하지만, 코드만 보고 어떤 의미인지 파악하기 위해서 semantic 태그를 쓰는 것이다.
+    - 모든 태그를 암기 할 필요는 없다. 필요할 때마다 문서를 찾아 적용하면 된다.
+ -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="shortcut icon"sizes="16x16 32x32 64x64x" href="http://nomadcoders.co/m.png">
+    <title>Home - My first website.</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="This is my website"/>
+    <!-- rel(relation 관계) -->
+</head>
+<body>
+<header>
+    <h1>Kim JongYeon</h1>
+</header>
+<main>
+    <p>hello!</p>
+    <span>hello!</span>
+</main>
+<footer>
+    &copy; 2020 N.C
+</footer>
+</body>
+</html>
+
+<!-- 
+    a태그에서
+    _blank 새창
+    _self 현재창에서 이동
+    <img>태그는 닫힌 태그가 없음
+    src 이미지의 경로 (속성)
+-->
+
+<!-- 
+    label 은 input과 함께 작동한다. (label이 input을 activate)
+    label 태그에 for=""
+    input 태그에 id="" 에 완전 똑같은 벨류가 들어가야 함.
+
+    (커서 동시 선택하고 싶을 때는, option 키)
+
+    *핵심은 Id
+    id는 body 안에 어떤 태그에든 넣을 수 있는 attribute임
+    element당 하나의 id 만을 가질 수 있다 (고유식별자임, 중복된 id를 사용하면 doesn't work!)
+    Why? CSS가 태그를 지정하여 꾸미기 위해서 ID가 필요하기 때문이다!
+ -->
